@@ -1,0 +1,11 @@
+.about {
+    display: inline-block;
+    color: #666;
+    width: 100%;
+    height: 100%;
+    Margin-top: 4px;
+    margin-left: 64px;
+    margin-right: 64px;
+    background-image: url(https://etsft.ru/upload/iblock/ef7/817nb5ll8xo9iz4253z0v0s2f86xeqc0.png);
+    background-color: aquamarine;
+}
