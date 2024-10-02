@@ -1,15 +1,13 @@
 import './App.css';
-import Navbar from './components/navbar/Navbar';
-import About from './components/about/About';
 import Services from './components/services/Services';
 import Career from './components/career/Career';
+import Home from './components/home/Home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Navbar />
-        <About />
+        <Home />
         <Services />
         <Career />
       </header>

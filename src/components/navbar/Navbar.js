@@ -9,27 +9,27 @@ const Navbar = () => {
 
 	return (
 		<nav className="nav">
-			<div className="container">
-				<div className="nav-row">
-					<div className="logo">
-						<strong>ЭТОСОФТ</strong>
-					</div>
-
-					<ul className="nav-list">
-						<li className="nav-list__item">
+			<div className="nav-row">
+				<div className="logo">
+					<img className="logo-img" src="https://etsft.ru/upload/CAllcorp3Digital/b31/fo31wv9ygu5wuzgwpvzhsx6ftit672i2.svg" alt="Корпоративный сайт" title="Корпоративный сайт"></img>
+				</div>
+				<div className="nav-list">
+					<div className="nav-list__items">
+						<a href='#!' className="nav-list__item">
 							О компании
-						</li>
-
-						<li className="nav-list__item">
+						</a>
+						<a href='#!' className="nav-list__item">
 							Услуги и решения
-						</li>
-						<li className="nav-list__item">
+						</a>
+						<a href='#!' className="nav-list__item">
 							Карьера
-						</li>
-                        <li>
-                            +7 (908) 058-67-55
-                        </li>
-					</ul>
+						</a>
+					</div>
+					<div className='link-tel-nav-list'>
+            			<a href='#!'>
+                        	+7 (908) 058-67-55
+                		</a>
+					</div>
 				</div>
 			</div>
 		</nav>
