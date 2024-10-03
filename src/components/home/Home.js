@@ -1,6 +1,6 @@
-import About from "../about/About";
+import AboutUs from "../aboutUs/AboutUs";
 import Navbar from "../navbar/Navbar";
-import './style.css'
+import './home.css'
 
 
 
@@ -8,7 +8,7 @@ const Home = () => {
     return ( 
         <div className="home">
             <Navbar />
-            <About />
+            <AboutUs />
         </div>
      );
 }

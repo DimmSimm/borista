@@ -1,4 +1,4 @@
-import './style.css';
+import './career.css';
 
 const Career = () => {
     return (
