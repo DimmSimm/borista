@@ -1,5 +1,14 @@
-.career {
+.career-container {
     background-image: url(https://etsft.ru/upload/iblock/dcf/v4prqdiafp7slwfy4bj9na3bv3nnmrq4.png);
     width: 93%;
     height: 35vh;
-}								
+}
+
+.career {
+    text-align: left;
+}
+
+.switcher-title {
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #333;
+}

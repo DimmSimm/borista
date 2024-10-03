@@ -1,20 +1,16 @@
-// import { NavLink } from 'react-router-dom';
-// import BtnDarkMode from '../btnDarkMode/BtnDarkMode';
-import './style.css';
+import './navbar.css';
 
 
 const Navbar = () => {
-	// const activeLink = 'nav-list__link nav-list__link--active';
-	// const normalLink = 'nav-list__link';
-
+	
 	return (
 		<nav className="nav">
 			<div className="nav-row">
-				<div className="logo">
+				<div className="logo nav-main-items">
 					<img className="logo-img" src="https://etsft.ru/upload/CAllcorp3Digital/b31/fo31wv9ygu5wuzgwpvzhsx6ftit672i2.svg" alt="Корпоративный сайт" title="Корпоративный сайт"></img>
 				</div>
 				<div className="nav-list">
-					<div className="nav-list__items">
+					<div className="nav-list__items nav-main-items">
 						<a href='#!' className="nav-list__item">
 							О компании
 						</a>
@@ -25,7 +21,7 @@ const Navbar = () => {
 							Карьера
 						</a>
 					</div>
-					<div className='link-tel-nav-list'>
+					<div className="nav-list__link-tel nav-main-items">
             			<a href='#!'>
                         	+7 (908) 058-67-55
                 		</a>

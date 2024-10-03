@@ -2,9 +2,12 @@ import './style.css';
 
 const Services = () => {
     return ( 
-        <div className="services">
-            <h2>Услуги</h2>
-                <div>
+        <div className="services-container">
+            <div className='services'>
+                <h2>
+                    Услуги
+                </h2>
+                <p>
                     Компания ООО «Это Софт» предлагает услуги по разработке и сопровождению
                     программного обеспечения. Мы создаем приложения, которые помогают клиентам
                     оптимизировать работу, экономить время и деньги. Сотрудничаем с отечественными и
@@ -23,56 +26,98 @@ const Services = () => {
                     целевую арихтектуру и архитектуру миграции.
 
                     Выстраиваем процессы разработки, как небольших команд (5-10), так и крупных (до 50 человек).
-            <h2>Разработка и сопровождение программного обеспечения.</h2>
+                </p>
+                <h2>
+                    Разработка и сопровождение программного обеспечения.
+                </h2>
+                <p>
                     Мы специализируемся на заказной индивидуальной разработке под нужды заказчика.
         
                     Все циклы разработки программного обеспечения - от построения архитектуры до последующего
                     технического сопровождения продукта.
                     
                     Наш опыт включает в себя как разработку с чистого листа так и включение в проект на этапе разработки.
-        
+                </p>
                     Основные технологии для серверной разработки:
                 <ul>
-                    <li><code>Java</code>, <code>Spring Framework</code></li>
-                    <li><code>Nodejs</code>, <code>expressjs</code>, <code>nestjs</code>, <code>Typescript</code></li>
-                    <li><code>Kafka</code>, <code>Rabbit</code>, <code>Apache Artemis</code>, <code>Redis</code>, <code>Hazelcast</code></li>
-                    <li><code>Keycloak</code></li>
-                    <li><code>PostgreSQL</code>, <code>OracleDB</code>, <code>MySql</code>, <code>mongodb</code></li>
-                    <li><code>OpenAPI/Swagger</code></li>
+                    <li>
+                        <code>Java</code>, <code>Spring Framework</code>
+                    </li>
+                    <li>
+                        <code>Nodejs</code>, <code>expressjs</code>, <code>nestjs</code>, <code>Typescript</code>
+                    </li>
+                    <li>
+                        <code>Kafka</code>, <code>Rabbit</code>, <code>Apache Artemis</code>, <code>Redis</code>, <code>Hazelcast</code>
+                    </li>
+                    <li>
+                        <code>Keycloak</code>
+                    </li>
+                    <li>
+                        <code>PostgreSQL</code>, <code>OracleDB</code>, <code>MySql</code>, <code>mongodb</code>
+                    </li>
+                    <li>
+                        <code>OpenAPI/Swagger</code>
+                    </li>
                 </ul>
+                <p>
                     Основные технологии, используемые при разработке Frontend:
+                </p>
                 <ul>
-                    <li><code>Typescript</code>, <code>Vue</code>, <code>Vuex</code>, <code>React</code>, <code>Redux</code>, <code>MaterialUI</code></li>
-                    <li><code>WebSocket</code></li>
+                    <li>
+                        <code>Typescript</code>, <code>Vue</code>, <code>Vuex</code>, <code>React</code>, <code>Redux</code>, <code>MaterialUI</code>
+                    </li>
+                    <li>
+                        <code>WebSocket</code>
+                    </li>
                 </ul>
-            <h2>Внедрение CI/CD в существующие проекты.</h2>
+                <h2>
+                    Внедрение CI/CD в существующие проекты.
+                </h2>
+                <p>
                     Мы обладаем богатым опытом внедрения современных практик CI/CD в существующие проекты.
-
                     Технологии, которые мы использовали для реализации задач непрерывной интеграции и доставки:
+                </p>
                 <ul>
-                    <li><code>Docker</code></li>
-                    <li><code>Kubernetes</code>, <code>Openshift</code>, <code>OKD</code>, <code>Amazon AWS</code></li>
-                    <li><code>Gitlab CI/CD</code>, <code>Jenkins</code></li>
-                    <li><code>SonarQube</code></li>
+                    <li>
+                        <code>Docker</code>
+                    </li>
+                    <li>
+                        <code>Kubernetes</code>, <code>Openshift</code>, <code>OKD</code>, <code>Amazon AWS</code>
+                    </li>
+                    <li>
+                        <code>Gitlab CI/CD</code>, <code>Jenkins</code>
+                    </li>
+                    <li>
+                        <code>SonarQube</code>
+                    </li>
                 </ul>
-            <h2>Тестирование программного обеспечения.</h2>
+                <h2>
+                    Тестирование программного обеспечения.
+                </h2>
+                <p>
                     Наши специалисты обладают высокими навыками как ручного так и автоматизированного тестирования.
-            
                     Создание и сопровождение тесткейсов для различных сценариев использования (ручное либо
                     автоматизированное тестирование). Интеграция с системами управления тестированием.
+                </p>
                 <ul>
-                    <li><code>Java</code>, <code>JavaScript</code>, <code>Python</code>, <code>Cucumber</code>, <code>JBehave</code>, <code>Allure</code>, <code>Gitlab CI/CD</code></li>
+                    <li>
+                        <code>Java</code>, <code>JavaScript</code>, <code>Python</code>, <code>Cucumber</code>, <code>JBehave</code>, <code>Allure</code>, <code>Gitlab CI/CD</code>
+                    </li>
                 </ul>
-            <h2>Стоимость и порядок работ</h2>
-            Мы работаем как по модели Time &amp; Material так и по модели Fix Price.
+                <h2>
+                    Стоимость и порядок работ
+                </h2>
+                <p>
+                    Мы работаем как по модели Time &amp; Material так и по модели Fix Price.
 
-            Конечная цена варьируется в зависимости от выбранной модели и сроков.
-         <ul>
-            <li>Стоимость наших услуг при модели Time &amp; Material - от 15&nbsp;000&nbsp;₽ и зависит от требуемой квалификации специалиста.</li>
-            <li>Стоимость при модели Fix Price - от 5&nbsp;000&nbsp;000&nbsp;₽ за проект.</li>
-         </ul>
-         </div>
-      </div>
+                Конечная цена варьируется в зависимости от выбранной модели и сроков.
+                </p>
+                <ul>
+                <li>Стоимость наших услуг при модели Time &amp; Material - от 15&nbsp;000&nbsp;₽ и зависит от требуемой квалификации специалиста.</li>
+                <li>Стоимость при модели Fix Price - от 5&nbsp;000&nbsp;000&nbsp;₽ за проект.</li>
+                </ul>
+            </div>
+        </div>
     );
 }
  

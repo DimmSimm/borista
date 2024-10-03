@@ -3,16 +3,18 @@ import './style.css';
 const About = () => {
     return (
         <div className="about">
-            <strong>
-                О компании
-            </strong>
-            <p>
+            <div className="about-description">
+                <p className='switcher-title'>
+                    О компании
+                </p>
+                <p className='title-description'>
             	Это Софт - это российская IT-компания. 
                 Мы осуществляем полный спектр работ
                 в области заказной разработки ПО
                 в таких отраслях, как ритеил, финансы,
                 промышленность и государственный сектор. 													
-            </p>
+                </p>
+            </div>
         </div>
       );
 }
