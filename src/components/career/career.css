@@ -1,14 +1,34 @@
-.career-container {
-    background-image: url(https://etsft.ru/upload/iblock/dcf/v4prqdiafp7slwfy4bj9na3bv3nnmrq4.png);
-    width: 93%;
-    height: 35vh;
+.career {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    border-radius: 4px;
 }
 
-.career {
+.career-background {
+    background-image: url(https://etsft.ru/upload/iblock/dcf/v4prqdiafp7slwfy4bj9na3bv3nnmrq4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1564px;
     text-align: left;
 }
 
-.switcher-title {
+.career-title {
     font-family: "Montserrat", Arial, sans-serif;
+    font-size: 2.53333em;
+    line-height: calc(1em + 7px);
+    font-weight: 500;
+    color: #333;
+}
+
+.career-description {
+    margin-top: 24px;
+    font: 17px / 28px "PT Sans Caption", Arial, sans-serif;
     color: #333;
 }

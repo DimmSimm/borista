@@ -1,0 +1,20 @@
+.buttonToTop {
+    display: block;
+    position: fixed;
+    background: url(https://etsft.ru/bitrix/templates/aspro-allcorp3digital/images/svg/scroll.svg) no-repeat scroll center center;
+    background-color: #5555dc;
+    background-position: center 14px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    bottom: 23px;
+    right: 73px;
+    text-decoration: none;
+    z-index: 99;
+}
+
+.buttonToTop:hover {
+    opacity: 0.8;
+}
+
+

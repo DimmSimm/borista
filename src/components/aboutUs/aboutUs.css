@@ -1,26 +1,25 @@
 .about {
     display: flex;
-    max-width: 1780px;
     height: 786px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
 }
 
 .container {
     max-width: 1564px;
-  }
+    padding-left: 32px;
+    padding-right: 32px;
+}
 
 .about-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-left: auto;
+    align-items:start;
 }
 
-.switcher-title {
+.about-title {
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 500;
     font-size: 80px;
@@ -28,13 +27,14 @@
     width: 50%;
     margin: 0px;
     color: #333;
+    
 }
 
-.title-description {
+.about-title-description {
     width: 50%;
-    margin-top: 4px;
-    margin-left: 64px;
-    margin-right: 64px;
+    margin-top: 21px;
+
+    font-size: 1.2em;
     line-height: 28px;
     color: #666;
 }
