@@ -1,8 +1,15 @@
 import './buttonToTop.css';
 
-const ButtonToTop = () => {
+
+const ButtonToTop = (
+    // { scrollY }
+) => {
     return (
-        <a className="buttonToTop rotateIn rotateOut" href='/'> </a>
+        // <div>
+            <a
+            // style={{ display: scrollY > 0 ? 'block' : 'none' }}
+            className="buttonToTop rotateIn rotateOut" href='/'> </a>
+        // </div>
     )    
 }
  

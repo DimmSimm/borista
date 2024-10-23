@@ -11,15 +11,24 @@ import { useState } from 'react';
 function App() {
 
   const [modalActive, setModalActive] = useState(false);
-  
+  const screenWidth = window.screen.width
+//   const [scrollY, setScrollY] = useState(window.scrollY)
+//   useEffect(() => {
+// 	setScrollY(window.scrollY)
+// 	console.log(scrollY, window.scrollY)
+//   }, [window.scrollY])
   return (
     <div className="App">
-        <BurgerBtn onClick={setModalActive} />
+		{screenWidth < 1000 && (
+        	<BurgerBtn onClick={setModalActive} />
+		)}
         <Home />
         <Services />
         <Career />
         <Footer />
-        <ButtonToTop />
+        <ButtonToTop
+		// scrollY={scrollY}
+		/>
         <Modal active={modalActive} setActive={setModalActive}>
         	<div className="logo nav-main-items">
 				<img className="logo-img" src="https://etsft.ru/upload/CAllcorp3Digital/b31/fo31wv9ygu5wuzgwpvzhsx6ftit672i2.svg" alt="Корпоративный сайт" title="Корпоративный сайт"></img>
