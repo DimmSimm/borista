@@ -1,4 +1,4 @@
-import './ButtonToTop.css';
+import './buttonToTop.css';
 
 const ButtonToTop = () => {
     return (
