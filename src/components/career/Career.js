@@ -6,11 +6,13 @@ const Career = () => {
             <div className='career-background'>
             <div className='container'>
                 <div className='career-block'>
+                    <div className='career-title-block'>
                     <h3 className='career-title'>
                         Карьера
                     </h3>
-                    <div className='career-description'>
-                        <p>       
+                    </div>
+                    <div className='career-description-block'>
+                        <p className='career-description'>       
                             Основа нашей компании - это коллектив.
                             В связи появлением новых проектов,
                             мы постоянно ищем талантливых сотрудников.

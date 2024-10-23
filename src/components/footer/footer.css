@@ -9,14 +9,16 @@
 
 .footer-top-container {
     display: flex;
-    width: 1564px;
+    max-width: 1564px;
+    flex-grow: 1;
     padding-left: 32px;
     padding-right: 32px;
 }
 
 .footer-top {
-    width: 100%;
     display: flex;
+    max-width: 1564px;
+    flex-grow: 1;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;

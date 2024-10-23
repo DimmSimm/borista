@@ -1,6 +1,6 @@
 import AboutUs from "../aboutUs/AboutUs";
 import Navbar from "../navbar/Navbar";
-import './home.css'
+import './home.css';
 
 
 

@@ -1,26 +1,34 @@
 .nav {
 	display: flex;
-	width: 100%;
-	height: 91px;
 	align-items: center;
-	justify-content: center;
+	width: 100%;
 	border-bottom: 1px solid rgba(0, 0, 0, .071);
 }
 
-.container {
+.nav-container {
 	display: flex;
-	width: 1564px;
+	max-width: 1564px;
+	flex-grow: 1;
+	height: 91px;
+	margin-right: auto;
+    margin-left: auto;
+    padding-top: auto;
+    padding-bottom: auto;
+	align-items: center;
+    text-align: left;
 }
 
 .nav-row {
 	display: flex;
-	width: 100%;
+	flex-grow: 1;
 	height: 61px;
 	justify-content: space-between;
 	align-items: center;
+	width: 100%;
 }
 
 .nav-main-items {
+	display: flex;
 	margin: 0 32px;
 }
 

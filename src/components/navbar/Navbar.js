@@ -4,8 +4,8 @@ import './navbar.css';
 const Navbar = () => {
 	
 	return (
-		<nav className="nav">
-			<div className='container'>
+		<nav id='/' className="nav">
+			<div className='nav-container'>
 				<div className="nav-row">
 					<div className="logo nav-main-items">
 						<img className="logo-img" src="https://etsft.ru/upload/CAllcorp3Digital/b31/fo31wv9ygu5wuzgwpvzhsx6ftit672i2.svg" alt="Корпоративный сайт" title="Корпоративный сайт"></img>
