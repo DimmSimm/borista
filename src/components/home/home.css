@@ -1,9 +1,55 @@
 .home {
-    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     max-height: 877px;
     background-image: url(https://etsft.ru/upload/iblock/ef7/817nb5ll8xo9iz4253z0v0s2f86xeqc0.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 0px 0px 4px 4px;
+}
+
+@media (max-width: 1280px) {
+    .home {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .home {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 992px) {
+    .home {
+        width: 992px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        width: 768px;
+    }
+}
+
+@media (max-width: 425px) {
+    .home {
+        width: 425px;
+    }
+}
+
+@media (max-width: 375px) {
+    .home {
+        width: 375px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home {
+        width: 320px;
+    }
 }

@@ -1,6 +1,6 @@
 .modal {
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.4);
     position: fixed;
     top: 0;
@@ -19,26 +19,74 @@
 .modal__content {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 0 48px;
     background-color: #fff;
-    width: 375px;
-    height: 100vh;
+    width: 100%;
+    max-width: 425px;
+    height: 100%;
 }
 
 .mobilemenu {
     position: relative;
 }
 
+.mobilemenu-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 40px;
+}
+
+.mobilemenu__menu--top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .071);
+}
+
+.mobilemenu__menu--top a {
+    font-size: 1.4em;
+    line-height: calc(1em + 7px);
+    font-weight: bold;
+    color: #333;
+}
+
+.mobilemenu__menu--bottom {
+    display: flex;
+    align-items: center;
+    word-break: break-word;
+}
+
+.mobilemenu-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobilemenu__item {
+    padding: 27px 0 0;
+}
+
+.mobilemenu__menu-item {
+    display: flex;
+    padding: 10px 40px 11px 40px;
+}
+
+.mobilemenu__icon-block {
+    padding-right: 20px;
+}
+
+.mobilemenu__menu-item-phone {
+    font-size: 1.2em;
+    line-height: calc(1em + 7px);
+    font-weight: bold;
+    color: #333;
+}
+
 .mobilemenu__close {
     width: 46px;
     height: 46px;
-    position: absolute;
-    top: 31px;
-    right: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
     cursor: pointer;
 }
 
@@ -48,5 +96,13 @@
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.mobilemenu__menu-item-telegram {
+    background-color: #0088cc;
+    width: 39px;
+    height: 39px;
+    border-radius: 4px;
+    display: block;
 }
 

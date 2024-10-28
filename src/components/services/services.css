@@ -1,0 +1,132 @@
+.services {
+    max-width: 1564px;
+    width: 100%;
+    font-family: "PT Sans Caption", Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-bottom: 1px solid rgba(0, 0, 0, .071);
+}
+
+.services-wrapper {
+	display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    text-align: left;
+}
+
+.services-description {
+    width: 100%;
+    font: 17px / 28px "PT Sans Caption", Arial, sans-serif;
+    
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: calc(1em + 14px);
+    margin-bottom: 25px;
+    letter-spacing: normal;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 8px;
+}
+
+li {
+    line-height: 24px;
+}
+
+.services li:before {
+    content: "";
+    left: 0px;
+    top: 11px;
+    background: #666666;
+    width: 11px;
+    height: 1px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+code {
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+
+@media (max-width: 1280px) {
+    .services {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .services {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 992px) {
+    .services {
+        width: 992px;
+    }
+}
+
+@media (max-width: 991px) {
+    .services {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        width: 768px;
+    }
+}
+
+@media (max-width: 767px) {
+    .services {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+} 
+
+@media (max-width: 425px) {
+    .services {
+        width: 425px;
+    }
+}
+
+@media (max-width: 375px) {
+    .services {
+        width: 375px;
+    }
+}
+
+@media (max-width: 320px) {
+    .services {
+        width: 320px;
+    }
+}

@@ -1,17 +1,35 @@
 .career {
-    max-width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 80px;
     padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .career-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     background-image: url(https://etsft.ru/upload/iblock/dcf/v4prqdiafp7slwfy4bj9na3bv3nnmrq4.png);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    padding: 53px 32px;
     border-radius: 4px;
+}
+
+.career-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    max-width: 1564px;
+    width: 100%;
+    padding: 24px;
 }
 
 .career-title {
@@ -22,9 +40,82 @@
     color: #333;
 }
 
+.career-description-wrapper {
+    padding-top: 24px;
+}
+
 .career-description {
-    margin-top: 24px;
     font: 17px / 28px "PT Sans Caption", Arial, sans-serif;
     color: #333;
+}
+
+@media (max-width: 1280px) {
+    .career {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .career {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 992px) {
+    .career {
+        width: 992px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .career-background {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+@media (min-width: 992px) {
+    .career-background {
+        min-height: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .career {
+        width: 768px;
+    }
+}
+
+@media (max-width: 767px) {
+    .career {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .career {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .career-background {
+        padding: 25px 0;
+    }
+}
+
+@media (max-width: 425px) {
+    .career {
+        width: 425px;
+    }
+}
+
+@media (max-width: 375px) {
+    .career {
+        width: 375px;
+    }
+}
+
+@media (max-width: 320px) {
+    .career {
+        width: 320px;
+    }
 }
 

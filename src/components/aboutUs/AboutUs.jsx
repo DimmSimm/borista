@@ -2,15 +2,15 @@ import './aboutUs.css';
 
 const AboutUs = () => {
     return (
-        <div className="about">
-            <div className='container'>
+        <div id="about_company" className="about">
+            <div className='about-wrapper'>
                 <div className='about-description'>
-                    <div className='about-title-container'>
-                        <h3 className='about-title'>
+                    <div className='about-title-wrapper'>
+                        <h1 className='about-title'>
                             О компании
-                        </h3>
+                        </h1>
                     </div>
-                    <div className='about-title-description-container'>
+                    <div className='about-title-description-wrapper'>
                         <p className='about-title-description'>
                             Это Софт - это российская IT-компания. 
                             Мы осуществляем полный спектр работ

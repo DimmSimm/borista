@@ -2,27 +2,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: #333;
     border-radius: 4px 4px 0px 0px;
 }
 
-.footer-top-container {
+.footer-top-wrapper {
     display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 1564px;
-    flex-grow: 1;
+    width: 100%;
     padding-left: 32px;
     padding-right: 32px;
 }
 
 .footer-top {
     display: flex;
-    max-width: 1564px;
+    width: 100%;
     flex-grow: 1;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 54px 0 65px;
+}
+
+.footer-top-items {
+    display: flex;
 }
 
 .footer-top-items a {
@@ -32,6 +39,18 @@
 .footer-top-item {
     padding-left: 24px;
     padding-right: 24px;
+}
+
+.footer-top_item {
+    padding-bottom: 20px;
+}
+
+.footer-top-item__telega {
+    background-color:#474747;
+    width: 39px;
+    height: 39px;
+    border-radius: 4px;
+    display: block;
 }
 
 .phones__phone-link {
@@ -49,15 +68,19 @@
     line-height: calc(1em + 7px);
 }
 
-.footer-bottom-container {
+.footer-bottom-wrapper {
     display: flex;
-    width: 1564px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1564px;
+    width: 100%;
     padding-left: 32px;
     padding-right: 32px;
 }
 
 .footer-bottom {
     width: 100%;
+    flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -77,3 +100,54 @@
     color: #999;
 }
 
+@media (max-width: 1280px) {
+    .footer {
+        width: 1280px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+        width: 992px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        width: 768px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-top {
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-top-items {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px) {
+    .footer {
+        width: 425px;
+    }
+}
+
+@media (max-width: 375px) {
+    .footer {
+        width: 375px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        width: 320px;
+    }
+}

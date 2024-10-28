@@ -1,13 +1,15 @@
 .nav {
 	display: flex;
 	align-items: center;
+	justify-content: center;
+	max-width: 1564px;
 	width: 100%;
 	border-bottom: 1px solid rgba(0, 0, 0, .071);
 }
 
-.nav-container {
+.nav-wrapper {
 	display: flex;
-	max-width: 1564px;
+	width: 100%;
 	flex-grow: 1;
 	height: 91px;
 	margin-right: auto;
@@ -20,16 +22,16 @@
 
 .nav-row {
 	display: flex;
-	flex-grow: 1;
 	height: 61px;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
+	padding-right: 32px;
+	padding-left: 32px;
 }
 
 .nav-main-items {
 	display: flex;
-	margin: 0 32px;
 }
 
 .logo {
@@ -54,8 +56,68 @@
 	color: #333;
 }
 
-@media (max-width: 1200px) {
-    nav {
-        margin: 0 24px;
+.nav-list-phone-icon {
+	display: none;
+}
+
+.nav-list__link-tel {
+	white-space: nowrap;
+    font-weight: 600;
+}
+
+@media (width < 992px) {
+	.nav {
+		display: none;
+	}
+}
+
+@media (max-width: 1280px) {
+    .nav {
+        width: 1280px;
+    }
+}
+
+@media (width < 1280px) {
+    .nav-list__item-phone {
+		display: none;
+	}
+	.nav-list-phone-icon {
+		display: block;
+	}
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        width: 1024px;
+    }
+}
+
+@media (max-width: 992px) {
+    .nav {
+        width: 992px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        width: 768px;
+    }
+}
+
+@media (max-width: 425px) {
+    .nav {
+        width: 425px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav {
+        width: 375px;
+    }
+}
+
+@media (max-width: 320px) {
+    .nav {
+        width: 320px;
     }
 }
