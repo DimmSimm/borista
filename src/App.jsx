@@ -13,7 +13,11 @@ function App() {
 
   const [modalActive, setModalActive] = useState(false);
   
-  const screenWidth = window.screen.width
+  const screenWidth = window.screen.width;
+
+  // const position = window.scrollY;
+  // const coords = document.documentElement.clientHeight;
+  
 
   return (
     <div className="App">

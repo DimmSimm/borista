@@ -7,13 +7,14 @@
     left: 0;
     opacity: 0;
     pointer-events: none;
-    transition: left 0.4s;
     overflow: hidden;
+    transition: 0.5s;
 }
 
 .modal.active {
     opacity: 1;
     pointer-events: all;
+
 }
 
 .modal__content {

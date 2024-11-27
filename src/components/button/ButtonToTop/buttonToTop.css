@@ -10,10 +10,16 @@
     bottom: 23px;
     right: 73px;
     text-decoration: none;
+    opacity: 0.7;
 }
 
 .buttonToTop:hover {
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
+@media (max-width: 992px) {
+    .buttonToTop {
+        right: 23px;
+    }
+}
 

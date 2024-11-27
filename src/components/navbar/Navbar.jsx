@@ -16,20 +16,20 @@ const Navbar = () => {
 						</img>
 					</div>
 					<div className="nav-list nav-main-items">
-						<a href='#!' className="nav-list__item">
+						<a href='#about_company' className="nav-list__item">
 							О компании
 						</a>
-						<a href='#!' className="nav-list__item">
+						<a href='#services' className="nav-list__item">
 							Услуги и решения
 						</a>
-						<a href='#!' className="nav-list__item">
+						<a href='#career' className="nav-list__item">
 							Карьера
 						</a>
 					</div>
 					<div className="nav-list nav-list__link-tel nav-main-items">
 						<a href='tel:+7(908)0586755' className='nav-list-phone-icon'>
-							<span className="icon-block__only-icon banner-light-icon-fill menu-light-icon-fill fill-theme-target">
-            					<i className="svg inline  svg-inline-" aria-hidden="true">
+							<span className="icon-block">
+            					<i className="svg inline svg-inline-" aria-hidden="true">
                                     <svg width="14" height="18" viewBox="0 0 14 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path
                                             fillRule="evenodd"
