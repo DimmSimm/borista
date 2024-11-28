@@ -1,8 +1,22 @@
 import './navbar.css';
 import logo from '../../assets/logo.svg';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
-	
+	const [aboutCompany, setAboutCompany] = useState()
+	const [services, setServices] = useState()
+	const [career, setCareer] = useState()
+	useEffect(() => {
+		setAboutCompany(document.getElementById("about_company"))
+		setServices(document.getElementById("services"))
+		setCareer(document.getElementById("career"))
+	}, [])
+	const srollTo = (element) => {
+		element.scrollIntoView({
+			behavior: 'smooth',
+		});
+	}
+
 	return (
 		<nav id='header' className="nav">
 			<div className='nav-wrapper'>
@@ -16,13 +30,13 @@ const Navbar = () => {
 						</img>
 					</div>
 					<div className="nav-list nav-main-items">
-						<a href='#about_company' className="nav-list__item">
+						<a onClick={() => srollTo(aboutCompany)} className="nav-list__item">
 							О компании
 						</a>
-						<a href='#services' className="nav-list__item">
+						<a onClick={() => srollTo(services)} className="nav-list__item">
 							Услуги и решения
 						</a>
-						<a href='#career' className="nav-list__item">
+						<a onClick={() => srollTo(career)} className="nav-list__item">
 							Карьера
 						</a>
 					</div>

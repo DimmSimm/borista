@@ -18,14 +18,13 @@ function App() {
   // const position = window.scrollY;
   // const coords = document.documentElement.clientHeight;
   
-
   return (
     <div className="App">
-		{screenWidth < 992 && (
-      <MobileHeader>
-				<BurgerBtn onClick={setModalActive} />
-			</MobileHeader>
-		)}
+      {screenWidth < 992 && (
+        <MobileHeader>
+          <BurgerBtn onClick={setModalActive} />
+        </MobileHeader>
+      )}
       <Home />
       <Services />
       <Career />
