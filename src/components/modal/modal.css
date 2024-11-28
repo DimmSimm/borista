@@ -14,7 +14,6 @@
 .modal.active {
     opacity: 1;
     pointer-events: all;
-
 }
 
 .modal__content {
@@ -100,6 +99,8 @@
 }
 
 .mobilemenu__menu-item-telegram {
+    background: url(/src/assets/social.svg) -5px -193px no-repeat;
+    background-position: -331px -331px;
     background-color: #0088cc;
     width: 39px;
     height: 39px;

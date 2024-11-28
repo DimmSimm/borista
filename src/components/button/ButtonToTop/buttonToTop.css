@@ -1,7 +1,7 @@
 .buttonToTop {
     display: block;
     position: fixed;
-    background: url(https://etsft.ru/bitrix/templates/aspro-allcorp3digital/images/svg/scroll.svg) no-repeat scroll center center;
+    background: url(/src/assets/scroll.svg) no-repeat scroll center center;
     background-color: #5555dc;
     background-position: center 14px;
     width: 44px;

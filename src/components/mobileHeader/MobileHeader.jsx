@@ -1,4 +1,5 @@
 import './mobileHeader.css';
+import logo from '../../assets/logo.svg';
 
 const MobileHeader = ({children}) => {
     return (
@@ -10,7 +11,7 @@ const MobileHeader = ({children}) => {
                         <div className='mobile-header__logo-wrapper'>
                             <img 
                                 className="logo-img"
-                                src="https://etsft.ru/upload/CAllcorp3Digital/b31/fo31wv9ygu5wuzgwpvzhsx6ftit672i2.svg"
+                                src={logo}
                                 alt="Корпоративный сайт"
                                 title="Корпоративный сайт">
                             </img>

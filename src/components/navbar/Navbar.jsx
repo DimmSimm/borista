@@ -1,5 +1,5 @@
 import './navbar.css';
-
+import logo from '../../assets/logo.svg';
 
 const Navbar = () => {
 	
@@ -10,7 +10,7 @@ const Navbar = () => {
 					<div className="logo nav-main-items">
 						<img 
 							className="logo-img"
-							src="https://etsft.ru/upload/CAllcorp3Digital/b31/fo31wv9ygu5wuzgwpvzhsx6ftit672i2.svg"
+							src={logo}
 							alt="Корпоративный сайт"
 							title="Корпоративный сайт">
 						</img>
