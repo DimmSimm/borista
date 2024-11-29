@@ -52,6 +52,11 @@
     font-weight: 700;
 }
 
+.nav-list li {
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
 .nav-list__item {
 	color: #333;
 }

@@ -15,9 +15,6 @@ function App() {
   
   const screenWidth = window.screen.width;
 
-  // const position = window.scrollY;
-  // const coords = document.documentElement.clientHeight;
-  
   return (
     <div className="App">
       {screenWidth < 992 && (

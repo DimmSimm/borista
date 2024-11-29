@@ -3,15 +3,18 @@ import logo from '../../assets/logo.svg';
 import { useEffect, useState } from 'react';
 
 const Navbar = () => {
+
 	const [aboutCompany, setAboutCompany] = useState()
 	const [services, setServices] = useState()
 	const [career, setCareer] = useState()
+
 	useEffect(() => {
 		setAboutCompany(document.getElementById("about_company"))
 		setServices(document.getElementById("services"))
 		setCareer(document.getElementById("career"))
 	}, [])
-	const srollTo = (element) => {
+
+	const scrollTo = (element) => {
 		element.scrollIntoView({
 			behavior: 'smooth',
 		});
@@ -29,17 +32,17 @@ const Navbar = () => {
 							title="Корпоративный сайт">
 						</img>
 					</div>
-					<div className="nav-list nav-main-items">
-						<a onClick={() => srollTo(aboutCompany)} className="nav-list__item">
+					<ul className="nav-list nav-main-items">
+						<li onClick={() => scrollTo(aboutCompany)} className="nav-list__item">
 							О компании
-						</a>
-						<a onClick={() => srollTo(services)} className="nav-list__item">
+						</li>
+						<li onClick={() => scrollTo(services)} className="nav-list__item">
 							Услуги и решения
-						</a>
-						<a onClick={() => srollTo(career)} className="nav-list__item">
+						</li>
+						<li onClick={() => scrollTo(career)} className="nav-list__item">
 							Карьера
-						</a>
-					</div>
+						</li>
+					</ul>
 					<div className="nav-list nav-list__link-tel nav-main-items">
 						<a href='tel:+7(908)0586755' className='nav-list-phone-icon'>
 							<span className="icon-block">
