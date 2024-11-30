@@ -135,29 +135,3 @@ const Modal = ({active, setActive}) => {
 }
  
 export default Modal;
-
-// const goTopBtn = document.querySelector(".go-top");
-
-// goTopBtn.addEventListener("click", goTop);
-
-// function goTop() {
-//     if (window.pageYOffset > 0) {
-//         window.scrollBy(0, -75);
-//         setTimeout(goTop, 0);
-//     }
-// }
-
-// const goTopBtn = document.querySelector(".go-top");
-
-// window.addEventListener("scroll", trackScroll);
-
-// function trackScroll() {
-//     const offset = window.pageYOffset;
-//     const coords = document.documentElement.clientHeight;
-
-//     if (offset > coords) {
-//         goTopBtn.classList.add("go-top--show");
-//     } else {
-//         goTopBtn.classList.remove("go-top--show");
-//     }
-// }

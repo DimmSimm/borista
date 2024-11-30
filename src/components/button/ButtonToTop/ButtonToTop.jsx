@@ -3,20 +3,20 @@ import { useEffect, useState } from 'react';
 
 const ButtonToTop = () => {
 
-    const [header, setHeader] = useState()
+    const [home, setHeader] = useState();
 	
 	useEffect(() => {
-		setHeader(document.getElementById("header"))
+		setHeader(document.getElementById("home"));
     }, [])
 	
 	const scrollTo = (element) => {
 		element.scrollIntoView({
-			behavior: 'smooth',
+        	behavior: 'smooth',
 		});
 	}
 
     return (
-        <button onClick={() => scrollTo(header)} className="buttonToTop rotateIn rotateOut"></button>
+        <button onClick={() => scrollTo(home)} className="buttonToTop rotateIn rotateOut"></button>
     ) 
 
 }
