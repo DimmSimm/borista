@@ -1,5 +1,5 @@
-import AboutUs from "../aboutUs/AboutUs";
 import Navbar from "../navbar/Navbar";
+import AboutUs from "../aboutUs/AboutUs";
 import './home.css';
 
 const Home = () => {

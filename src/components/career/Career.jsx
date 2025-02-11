@@ -1,8 +1,8 @@
 import './career.css';
 
-const Career = () => {
+const Career = ({career}) => {
     return (
-        <div id='career' className='career'>
+        <div id='career' className={career}>
             <div className='career-background'>
                 <div className='career-wrapper'>
                     <div className='career-title-block'>

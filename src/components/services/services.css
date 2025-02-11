@@ -1,11 +1,11 @@
-.services {
+#services {
     max-width: 1564px;
     width: 100%;
     font-family: "PT Sans Caption", Arial, sans-serif;
     display: flex;
     align-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 32px;
     padding-right: 32px;
     border-bottom: 1px solid rgba(0, 0, 0, .071);

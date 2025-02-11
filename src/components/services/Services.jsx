@@ -1,8 +1,8 @@
 import './services.css';
 
-const Services = () => {
+const Services = ({services}) => {
     return ( 
-        <div id='services' className="services">
+        <div id='services' className={services}>
             <div className='services-wrapper'>
                 <div className='services-description'>
                     <div className='services-title-wrapper'>

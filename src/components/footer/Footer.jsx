@@ -91,12 +91,12 @@ const Footer = () => {
             <div className="footer-bottom-wrapper">
                 <div className="footer-bottom">
                     <div className='footer-bottom-items'>
-                        © 2018-2024 Это софт <br />
+                        © 2018-2025 Это софт <br />
                         ИНН: 7448214368<br />
                         ОГРН: 1187456043048
                     </div>
                     <div className='footer-bottom-items'>
-                        <a className="footer-license" href="https://etsft.ru/include/licenses_detail.php">
+                        <a className="footer-license" href="license">
                             Политика конфиденциальности
                         </a>
                     </div>
